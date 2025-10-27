@@ -1,5 +1,7 @@
 let soma = 0;
-for (let c = 1; c<= 100; c++){
-    soma +=c; // soma = soma + c;
+
+for(let c = 1; c <101; c++)
+     {
+    soma += c;
 }
-console.log (soma);
+console.log("a soma é:", soma)
